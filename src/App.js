@@ -37,7 +37,7 @@ const App = () => {
         ></div>
       </div>
       <button onClick={handleStart} className="start-btn">
-        Start Traffic Light
+        {`${started ? "Stop" : "Start"}`} Traffic Light
       </button>
     </div>
   );
